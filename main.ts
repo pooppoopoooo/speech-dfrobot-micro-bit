@@ -10,13 +10,13 @@ namespace Speech {
     
     const DATA_HEAD = 0xFD                  //帧头
     
-    let I2C_ADDR = 0x30 
+    let I2C_ADDR = 0x40 
 
     export enum I2C_ADDR_Select{
-        //% blockId="NEW_ADDR" block="NEW_ADDR"
-        NEW_ADDR = 0x30,
-        //% blockId="OLD_ADDR" block="OLD_ADDR"  
-        OLD_ADDR = 0x50
+        //% blockId="NEW_ADDR" block="DFRobot_ADDR"
+        NEW_ADDR = 0x40,
+        //% blockId="OLD_ADDR" block="yahboom_ADDR"  
+        OLD_ADDR = 0x30
     }
 
 
